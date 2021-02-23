@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://st2.depositphotos.com/3213441/12022/v/950/depositphotos_120226648-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg');
+    background-image: url('https://64.media.tumblr.com/fad4cee4c34914dd33c2204c09cf7668/tumblr_inline_mqvlarhoKt1qz4rgp.gif');
     size: cover; 
 }
 
@@ -8,7 +8,7 @@ nav {
     height:50px;
     width: 100%;
     display: flex;
-    justify-content:safe;
+    justify-content:space-evenly;
 }
 
 * {
@@ -113,8 +113,8 @@ nav {
     #more-emolga {
         width: 400px;
         height: 200px;
-        background-color: black;
-        border-color:black;
+        background-color:white;
+        border-color:white;
         padding: 10px;
         border-width:3px;
         border-radius: 10px;
@@ -125,7 +125,7 @@ nav {
         font-weight: bold;
         display: block;
         margin:0 auto;
-        color: gold;
+        color:black;
         margin-top: 20px;
     }
     ::-webkit-scrollbar {
