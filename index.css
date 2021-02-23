@@ -1,0 +1,134 @@
+body {
+    background-image: url('https://st2.depositphotos.com/3213441/12022/v/950/depositphotos_120226648-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg');
+    size: cover; 
+}
+
+nav {
+    background-color:whitesmoke;
+    height:50px;
+    width: 100%;
+    display: flex;
+    justify-content:safe;
+}
+
+* {
+    margin: 0; /*removes the browsers default margin*/
+    padding: 0; /*removes the browsers default padding*/
+    box-sizing: border-box;
+    }
+
+    #emolga {
+        width: 100px;
+        height: 30px;
+        background-color:gold;
+        margin-top: 10px;
+        color:black;
+        border-color: gold;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #type {
+        width: 100px;
+        height: 30px;
+        background-color:black;  
+        margin-top: 10px;
+        color:gold;
+        border-color:black;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #owner {
+        width: 100px;
+        height: 30px;
+        background-color: gold;
+        margin-top: 10px;
+        color:black;
+        border-color: gold;   
+        border-radius: 10px; 
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #pokemon {
+        width: 100px;
+        height: 30px;
+        background-color: black;
+        margin-top: 10px;
+        color: gold;
+        border-color:black;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+        
+        
+    }
+
+    #emolga-pic {
+        width: 200px;
+        height: 200px;
+        border: double;
+        border-width: 3px;
+        border-color:black;
+        border-radius: 100px;
+        background-color: black;
+        margin-top: 30px;
+    }
+
+    #about {
+        display: flex;
+        justify-content: center;
+    }
+
+    #emolga-info {
+        width: 300px;
+        height: 200px;
+        background-color:gold;
+        border-color: yellow;
+        color:black;
+        padding: 10px;
+        border-width: 3px;
+        border-style:double;
+        border-radius: 10px;
+        overflow: auto;
+        margin-top: 20px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
+
+    #more-emolga {
+        width: 400px;
+        height: 200px;
+        background-color: black;
+        border-color:black;
+        padding: 10px;
+        border-width:3px;
+        border-radius: 10px;
+        overflow: auto;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        display: block;
+        margin:0 auto;
+        color: gold;
+        margin-top: 20px;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
